@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31928" started-at="2019-12-13T04:17:22Z" finished-at="2019-12-13T04:17:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31928" started-at="2019-12-13T04:17:22Z" finished-at="2019-12-13T04:17:54Z">
+      <class name="Scripts.lca1">
+        <test-method status="PASS" signature="precond()[pri:0, instance:Scripts.lca1@ae45eb6]" name="precond" is-config="true" duration-ms="21849" started-at="2019-12-13T04:17:22Z" finished-at="2019-12-13T04:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precond -->
+        <test-method status="PASS" signature="loginscript()[pri:0, instance:Scripts.lca1@ae45eb6]" name="loginscript" duration-ms="5819" started-at="2019-12-13T04:17:44Z" finished-at="2019-12-13T04:17:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginscript -->
+        <test-method status="PASS" signature="postcond()[pri:0, instance:Scripts.lca1@ae45eb6]" name="postcond" is-config="true" duration-ms="4235" started-at="2019-12-13T04:17:49Z" finished-at="2019-12-13T04:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcond -->
+      </class> <!-- Scripts.lca1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
